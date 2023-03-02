@@ -1,8 +1,8 @@
 {
   "name": "Discord Blocked Blocker",
-  "version": "1.2",
-  "description": "Hides the \"Blocked\" messages that appear in Discord's IM interface when a user whom you have blocked sends a message.",
-  "manifest_version": 2,
+  "version": "1.3.0",
+  "description": "Hinders the \"_n_ blocked message(s)\" that appear in Discord when a blocked user sends a message. Due to CSS limitations, it can't completely get rid of the box.",
+  "manifest_version": 3,
   "content_scripts": [
     {
       "matches": ["https://discord.com/*"],
